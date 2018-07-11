@@ -1,7 +1,7 @@
 # Contributor: James Kirby <james.kirby@atlascityfinace.com>
 # Maintainer: James Kirby <james.kirby@atlascityfinace.com>
 pkgname=alpine-conf
-pkgver=3.7.0
+pkgver=4.0.0
 pkgrel=4
 pkgdesc="CryptOS configuration management scripts"
 url=http://git.alpinelinux.org/cgit/$pkgname
