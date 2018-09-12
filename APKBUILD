@@ -7,7 +7,7 @@ pkgdesc="CryptOS configuration management scripts"
 url=http://git.alpinelinux.org/cgit/$pkgname
 arch="all"
 license="MIT"
-depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3"
+depends="opennode-base opennode-setup-gui openrc>=0.24.1-r6 busybox>=1.26.1-r3"
 source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-$pkgver.tar.xz
 	0001-update-kernel-handle-vanilla-suffix-in-System.map-co.patch
 	0001-setup-keymap-keymaps-OpenRC-service-has-been-renamed.patch
