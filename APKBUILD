@@ -7,7 +7,7 @@ pkgdesc="CryptOS configuration management scripts"
 url=http://git.alpinelinux.org/cgit/$pkgname
 arch="all"
 license="MIT"
-depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3"
+depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3 opennode-base opennode-setup-gui"
 source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-$pkgver.tar.xz
 	"
 
