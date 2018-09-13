@@ -2,12 +2,12 @@
 # Maintainer: James Kirby <james.kirby@atlascity.io>
 pkgname=alpine-conf
 pkgver=3.8.0
-pkgrel=0
+pkgrel=420
 pkgdesc="CryptOS configuration management scripts"
 url=http://git.alpinelinux.org/cgit/$pkgname
 arch="all"
 license="MIT"
-depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3 opennode-base opennode-setup-gui"
+depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3"
 source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-$pkgver.tar.xz
 	"
 
