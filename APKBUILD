@@ -1,14 +1,15 @@
 # Contributor: James Kirby <james.kirby@atlascity.io>
 # Maintainer: James Kirby <james.kirby@atlascity.io>
 pkgname=alpine-conf
-pkgver=3.8.0
+pkgver=3.7.0
 pkgrel=420
 pkgdesc="CryptOS configuration management scripts"
 url=http://git.alpinelinux.org/cgit/$pkgname
 arch="all"
 license="MIT"
-depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3"
+depends="openrc>0.13 busybox>=1.26.1-r3"
 source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-$pkgver.tar.xz
+	0001-update-kernel-handle-vanilla-suffix-in-System.map-co.patch
 	"
 
 builddir="$srcdir"/$pkgname-$pkgver
@@ -25,4 +26,5 @@ package() {
 	done
 }
 
-sha512sums="402d01dbc2b2aa987658f689e8a88feda6a633a393e746d2db3ee108274ff20be21f292406fa4aad543a665edfaff342795deb2c59cbc8c2ff8577f8f7c2485d  alpine-conf-3.8.0.tar.xz"
+sha512sums="13fed0532aa84c39d54d2c905f31276c4b8f2d596c33bebd796f36e2e796f2d66c172440c20d19e8753f531204cacecc79ca24cd3ec1b24e3e51de251297207b  alpine-conf-3.7.0.tar.xz
+fdeb9f0c67a81b545e372199558fc81222f0c6599d42f0731f7fe0398bc0b9deb631c8e98f7147fb63b570ac0e97497d416332ddbfefbb833073df9c1baffee0  0001-update-kernel-handle-vanilla-suffix-in-System.map-co.patch"
