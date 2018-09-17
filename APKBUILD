@@ -3,7 +3,7 @@
 pkgname=alpine-conf
 pkgver=3.8.0
 pkgrel=420
-pkgdesc="Alpine configuration management scripts"
+pkgdesc="CryptOS configuration management scripts"
 url=http://git.alpinelinux.org/cgit/$pkgname
 arch="all"
 license="MIT"
