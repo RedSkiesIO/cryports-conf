@@ -8,7 +8,7 @@ url=http://git.alpinelinux.org/cgit/$pkgname
 arch="all"
 license="MIT"
 depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3"
-source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-$pkgver.tar.xz
+source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-3.8.0.tar.xz
 	"
 
 builddir="$srcdir"/$pkgname-$pkgver
