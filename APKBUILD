@@ -11,10 +11,10 @@ depends="openrc>=0.24.1-r6 busybox>=1.26.1-r3"
 source="http://dev.alpinelinux.org/archive/alpine-conf/alpine-conf-3.8.0.tar.xz
 	"
 
-builddir="$srcdir"/$pkgname-$pkgver
+builddir="$srcdir"/$pkgname-3.8.0
 build() {
 	cd "$builddir"
-	make VERSION=$pkgver-r$pkgrel
+	make VERSION=3.8.0-r$pkgrel
 }
 
 package() {
